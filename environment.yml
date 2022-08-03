@@ -1,0 +1,14 @@
+name: trfada
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - streamlit
+    - rdkit=2022.03.4
+    - pip
+    - pip:
+      - --requirement trfada_req.txt
+
+
+
+
